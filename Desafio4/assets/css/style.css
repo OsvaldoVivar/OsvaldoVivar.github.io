@@ -1,0 +1,21 @@
+.colorNav {
+  background-color: hsl(134, 61%, 41%);
+}
+.cardTextoTitulo {
+  color: #212529;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+hr {
+  color: #707070a0;
+}
+.colorFooter {
+  background-color: #28a745;
+}
+.colorGrisClaro {
+  color: #707070;
+}
+.colorVerdeClaro {
+  color: #28a745;
+}

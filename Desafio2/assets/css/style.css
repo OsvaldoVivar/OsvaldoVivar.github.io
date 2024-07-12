@@ -1,0 +1,66 @@
+#encabezado {
+  height: 30vh;
+  background-color: green;
+  background-image: url("../img/header.png");
+  background-size: cover;
+  color: rgb(43, 41, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+/* h1 lo modifique ya que normalize le daba un Margin */
+h1 {
+  margin: 0;
+  padding-left: 30px;
+}
+.eslogan {
+  margin: 0;
+  padding-left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+table {
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(199, 196, 196);
+}
+img {
+  width: 300px;
+  background-color: red;
+}
+
+td {
+  padding-bottom: 20px;
+}
+.imagenProducto {
+  width: 10%;
+  text-align: right;
+  background-color: transparent;
+}
+.detalleProducto {
+  background-color: transparent;
+  width: 10%;
+  text-align: left;
+  padding-left: 10px;
+}
+.monto {
+  color: rgb(54, 53, 53);
+  font-weight: bold;
+  font-size: 25px;
+}
+.nombre {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  background-color: rgb(49, 50, 48);
+  height: 15vh;
+}
+.pieDePagina {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}

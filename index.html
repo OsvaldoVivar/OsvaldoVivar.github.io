@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Osvaldo Vivar</title>
+  </head>
+  <body>
+    <!-- menu navegador -->
+    <nav
+      class="navbar navbar-expand-lg d-flex flex-wrap"
+      style="background-color: #027373"
+    >
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand col-12 col-md-12 d-block" href="#">
+          <!-- Logo Chico -->
+          <img
+            src="./assets/img/logosm-05.png"
+            class="img-fluid d-block d-sm-none rounded mx-auto"
+            alt="Imagen logo pequeña"
+          />
+
+          <!--Logo Mediano -->
+          <img
+            src="./assets/img/logo-blanco.png"
+            class="img-fluid d-none d-sm-block d-md-none rounded mx-auto"
+            alt="Imagen logo mediana"
+          />
+
+          <!-- Lgoo Grande -->
+          <img
+            src="./assets/img/logo-blanco.png"
+            class="img-fluid d-none d-md-block rounded mx-auto"
+            alt="Imagen  logo grande"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center col-12"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav col-12 justify-content-center">
+            <a class="nav-link" href="#">inicio</a>
+            <a class="nav-link" href="#sobreMi">sobre mi</a>
+            <a class="nav-link" href="#experiencia">educación</a>
+            <a class="nav-link" href="#portafolio">portafolio</a>
+            <a class="nav-link" href="#contacto">contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- fin nav -->
+    <!-- CARRUSEL -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/bg002.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/bg003.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <!--FIN CARRUSEL  bgcolorporta -->
+    <!-- SECTION EXPERIENCIA CAMBIADO POR QUIEN SOY -->
+    <div class="bgcpropio colortextcurr" id="sobreMi">
+      <section class="container pd-5">
+        <div class="row">
+          <h2 class="fs-1 text-center p-5">SOBRE MI</h2>
+          <div class="col-12 col-md-6 col-lg-6 text-justify">
+            Soy Osvaldo Vivar Vivanco, padre de tres hermosos niños, y me titulé
+            en Técnico en Diseño y Producción Digital. Actualmente, resido en
+            Copiapó, Atacama, Chile, y me dedico a la fotografía y al
+            mantenimiento de varias páginas web. Mi pasión por la fotografía me
+            permite capturar momentos únicos y transformarlos en obras de arte
+            visuales que reflejan mi talento y mi ojo crítico. Además, mi
+            formación en diseño y producción digital me ha dotado de las
+            habilidades necesarias para crear y mantener sitios web atractivos y
+            funcionales. Actualmente, estoy expandiendo mis conocimientos en el
+            campo de la tecnología, estudiando Full Stack JavaScript en Desafío
+            Latam. Esta formación me permitirá dominar las últimas tecnologías y
+            metodologías de desarrollo web, ampliando aún más mi conjunto de
+            competencias. <br />
+            Te invito a visitar mi currículum digital, donde podrás explorar mis
+            proyectos y conocer más sobre mi trayectoria y habilidades.
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 text-center">
+            <img
+              src="./assets/img/fotoCv.png"
+              alt="Foto de Osvaldo Vivar"
+              class="img-fluid img-thumbnail"
+              style="height: 300px"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- FIN SECTION EXPERIENCIA CAMBIADO POR QUIEN SOY -->
+    <!-- SECTION EDUCACION -->
+    <div class="bgcpropio colortextcurr" id="experiencia">
+      <h2 class="fs-1 text-center p-3">EDUCACIÓN</h2>
+      <section class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 col-lg-11">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style="background-color: #f2e7dc; color: #027373"
+                  >
+                    Formación basica
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                  style="background-color: #f2e7dc; color: #027373"
+                >
+                  <div class="accordion-body">
+                    Escuela People Help People de Santo Domingo y Escuela Jaime
+                    Eyzaguirre de Santiago Educación Básica Completé mi
+                    educación básica en las escuelas People Help People de San
+                    Antonio y Jaime Eyzaguirre de Santiago, sentando las bases
+                    para mi formación académica.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style="background-color: #f2e7dc; color: #027373"
+                  >
+                    Formación media
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                  style="background-color: #f2e7dc; color: #027373"
+                >
+                  <div class="accordion-body">
+                    Colegio Pitágoras de Santiago Educación Media con
+                    Especialización Técnica en Ventas Graduado de cuarto medio,
+                    obtuve una formación técnica especializada en ventas,
+                    desarrollando habilidades clave en comunicación y
+                    estrategias comerciales.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style="background-color: #f2e7dc; color: #027373"
+                  >
+                    Formación tecnica
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                  style="background-color: #f2e7dc; color: #027373"
+                >
+                  <div class="accordion-body">
+                    instituto Técnico de Capacitación (ITC) Técnico en Diseño y
+                    Producción Digital 2018 Durante mis estudios en ITC, me
+                    titulé en Diseño y Producción Digital, adquiriendo
+                    competencias en herramientas digitales, técnicas de diseño y
+                    producción multimedia. Este programa me proporcionó una base
+                    sólida para mi carrera en fotografía y desarrollo web.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThreee"
+                    aria-expanded="false"
+                    aria-controls="collapseThreee"
+                    style="background-color: #f2e7dc; color: #027373"
+                  >
+                    Formación adicional
+                  </button>
+                </h2>
+                <div
+                  id="collapseThreee"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                  style="background-color: #f2e7dc; color: #027373"
+                >
+                  <div class="accordion-body">
+                    Desafío Latam Estudiante de Full Stack JavaScript
+                    Actualmente, estoy cursando estudios en Full Stack
+                    JavaScript en Desafío Latam, donde estoy profundizando mis
+                    conocimientos en desarrollo web y tecnologías modernas. Este
+                    programa me está preparando para enfrentar los desafíos
+                    actuales del mercado tecnológico y ampliar mis habilidades
+                    en programación.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- FIN SECTION EDUCACION -->
+    <!-- PORTAFOLIO -->
+    <div class="bgcppropio2 colortextcurr" id="portafolio">
+      <h2 class="fs-1 text-center pt-5">PORTAFOLIO</h2>
+      <div class="container">
+        <div class="row mt-5 d-flex justify-content-center text-center">
+          <!-- CAJAS DE PORTAFOLIO -->
+          <div
+            class="card col-12 col-md-5 col-lg-3"
+            style="
+              background-color: transparent;
+              border-color: transparent;
+              color: #f2e7dc;
+            "
+          >
+            <img
+              src="./assets/img/potafolio-01.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">HTML CSS basico</p>
+              <button
+                type="submit"
+                class="btn shadow"
+                style="background-color: #027373; color: #027373"
+              >
+                <a
+                  href="./Desafio2/index.html"
+                  target="_blank"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >visualizar</a
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-5 col-lg-3"
+            style="
+              background-color: transparent;
+              border-color: transparent;
+              color: #f2e7dc;
+            "
+          >
+            <img
+              src="./assets/img/potafolio-02.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">HTML CSS con Flex</p>
+              <button
+                type="submit"
+                class="btn shadow"
+                style="background-color: #027373; color: #027373"
+              >
+                <a
+                  href="./Desafio3/index.html"
+                  target="_blank"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >visualizar</a
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-5 col-lg-3"
+            style="
+              background-color: transparent;
+              border-color: transparent;
+              color: #f2e7dc;
+            "
+          >
+            <img
+              src="./assets/img/potafolio-03.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">HTML CSS con Bootstrap</p>
+              <button
+                type="submit"
+                class="btn shadow"
+                style="background-color: #027373; color: #027373"
+              >
+                <a
+                  href="./Desafio4/index.html"
+                  target="_blank"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >visualizar</a
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-5 col-lg-3"
+            style="
+              background-color: transparent;
+              border-color: transparent;
+              color: #f2e7dc;
+            "
+          >
+            <img
+              src="./assets/img/potafolio-04.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text placeholder-glow">Forkear con Git</p>
+            </div>
+          </div>
+          <!-- FIN CAJA DE PORTAFOLIO -->
+        </div>
+      </div>
+    </div>
+    <!-- FIN DE PORTAFOLIO -->
+    <!-- CONTACTO -->
+    <div class="bgcpropio colortextcurr" id="contacto">
+      <div class="container pt-5">
+        <div class="d-flex row justify-content-center">
+          <h2 class="text-center">CONTACTO</h2>
+          <form class="col-12">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Ingresa tu nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="nombre@ejemplo.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Asunto</label>
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Asunto"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Escribe tu mensaje"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn"
+              style="background-color: #f2e7dc; color: #027373"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- FIN CONTACTO -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="contenedor pt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-6 col-md-3 col-lg-2">
+            <img
+              src="./assets/img/logosm-05.png"
+              class="img-fluid d-block d-sm-none rounded mx-auto"
+              alt="Imagen pequeña"
+            />
+
+            <!--Logo Mediano -->
+            <img
+              src="./assets/img/logosm-05.png"
+              class="img-fluid d-none d-sm-block d-md-none rounded mx-auto"
+              alt="Imagen mediana"
+            />
+
+            <!-- Lgoo Grande -->
+            <img
+              src="./assets/img/logo-blanco.png"
+              class="img-fluid d-none d-md-block rounded mx-auto"
+              alt="Imagen grande"
+            />
+          </div>
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <h3>Navegación</h3>
+            <ul>
+              <li class="list-group-item">
+                <a href="#" class="text-decoration-none" style="color: #f2e7dc"
+                  >inicio</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="#sobreMi"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >sobre mi</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="#experiencia"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >experiencia</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="#portafolio"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >portafolio</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="#contacto"
+                  class="text-decoration-none"
+                  style="color: #f2e7dc"
+                  >contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 text-center">
+            <h3>redes</h3>
+            <ul>
+              <li class="list-group-item">
+                <a
+                  href="https://www.linkedin.com/in/osvaldo-vivar-vivanco-80325430b/"
+                  ><i class="fa-brands fa-linkedin fa-2xl colorredes"></i
+                ></a>
+              </li>
+              <li class="mt-4 list-group-item">
+                <a href="https://github.com/OsvaldoVivar"
+                  ><i class="fa-brands fa-github fa-2xl colorredes"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 footerPie text-center">
+            <p class="mt-2">Copyright © 2024. Diseñado por Osvaldo Vivar</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <!--Fin de Body inicio bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2587edd0bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
